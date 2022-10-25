@@ -1,0 +1,40 @@
+.blogpost-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.blogpost {
+    width: 300px; 
+    border: 1px solid rgb(215,233,233);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(215, 233, 233);
+}
+
+.blogpost h1 {
+    width: 100%;
+    text-align: center;
+    color: black;
+}    
+
+.blogpost p{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+   .blogpost-container {
+        display: flex;
+        flex-flow: row;
+    }  
+} 
